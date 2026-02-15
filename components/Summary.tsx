@@ -47,11 +47,23 @@ const Summary: React.FC<SummaryProps> = ({ totals }) => {
         </div>
       </div>
 
-      <div className="mt-8 text-center bg-blue-50 py-3 rounded-lg border border-blue-100 no-print">
-        <p className="text-blue-700 font-medium">
-          <i className="fas fa-lightbulb mr-2"></i>
-          Did you know? Reviewing bills annually can save the average household over $1,200!
-        </p>
+      <div className="mt-8 bg-blue-50 p-6 rounded-xl border border-blue-100 no-print text-center">
+        <div className="mb-4 text-blue-800">
+          <p className="font-bold mb-1">
+            <i className="fas fa-info-circle mr-2"></i>
+            ‘Keep it’ / ‘Cancel it’ are only for this checklist.
+          </p>
+          <p className="text-sm">
+            They do not cancel any services. You still need to contact each provider to stop a service.
+          </p>
+        </div>
+        
+        <div className="pt-4 border-t border-blue-200">
+          <p className="text-blue-700 font-medium italic">
+            <i className="fas fa-lightbulb mr-2"></i>
+            Did you know? Reviewing bills annually can save the average household over $1,200!
+          </p>
+        </div>
       </div>
     </div>
   );
