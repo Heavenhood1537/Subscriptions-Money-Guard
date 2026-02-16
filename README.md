@@ -1,20 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+SUBSCRIPTION MONEY GUARD
 
-# Run and deploy your AI Studio app
+A simple one‑page checklist that helps families and helpers find and stop wasted subscription and bill payments—especially for retirees.
 
-This contains everything you need to run your app locally.
+Most households pay for subscriptions and services they no longer use. Subscriptions Money Guard gives you an easy printable or online checklist to review internet, phone, TV, streaming, insurance, car payments, food deliveries, and more in one place. Fill it out together with your family or other helper once, mark “keep” or “cancel later,” and see how much money you can save each month.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1QxRjqCKoo9Lg81bbxO4DvOQmeOouqqfy
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Licensed under the MIT License – see LICENSE file for details.
