@@ -149,12 +149,18 @@ const App: React.FC = () => {
           </div>
 
           <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 mb-10 print:border-none print:shadow-none print:p-0">
+<<<<<<< HEAD
             <h2 className="text-3xl font-black text-slate-900 mb-2 print:mb-1">
               Your Bill Checklist
             </h2>
             <p className="text-sm font-bold text-slate-800 mb-8">
               No logins or card numbers needed. Just the names of your services and what they cost.
             </p>
+=======
+            <h2 className="text-3xl font-black text-slate-900 mb-6 print:mb-4">
+              Your Bill Checklist
+            </h2>
+>>>>>>> 6c08b14 (Initial commit of Subscriptions Money Guard)
             
             {/* How to use */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 no-print">

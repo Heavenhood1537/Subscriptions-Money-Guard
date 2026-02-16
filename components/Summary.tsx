@@ -47,6 +47,7 @@ const Summary: React.FC<SummaryProps> = ({ totals }) => {
         </div>
       </div>
 
+<<<<<<< HEAD
       <div className="mt-8 bg-blue-50 p-6 rounded-xl border border-blue-100 no-print text-center">
         <div className="mb-4 text-blue-800">
           <p className="font-bold mb-1">
@@ -64,6 +65,13 @@ const Summary: React.FC<SummaryProps> = ({ totals }) => {
             Did you know? Reviewing bills annually can save the average household over $1,200!
           </p>
         </div>
+=======
+      <div className="mt-8 text-center bg-blue-50 py-3 rounded-lg border border-blue-100 no-print">
+        <p className="text-blue-700 font-medium">
+          <i className="fas fa-lightbulb mr-2"></i>
+          Did you know? Reviewing bills annually can save the average household over $1,200!
+        </p>
+>>>>>>> 6c08b14 (Initial commit of Subscriptions Money Guard)
       </div>
     </div>
   );
